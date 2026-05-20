@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T23:26:37Z",
+  "generated_at": "2026-05-20T23:28:38Z",
   "runs": [
     {
       "slug": "ktbench_causal_conv1d_silu_a100_to_h100",
@@ -165,7 +165,7 @@
     {
       "slug": "ktbench_wkv_recurrence_a100_to_h100",
       "timestamp": "2026-05-20T23:21:55Z",
-      "scenario": "ktbench_wkv_recurrence_a100_to_h100",
+      "scenario": "ktbench.wkv_recurrence_a100_to_h100",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -173,14 +173,21 @@
       "tgt_dsl": null,
       "src_hw": null,
       "tgt_hw": null,
-      "outcome": "incomplete",
-      "final_score": null,
-      "sol_score": null,
-      "correctness_rate": null,
-      "stress_pass_rate": null,
-      "speedup_vs_ref": null,
+      "outcome": "passed",
+      "final_score": 0.001,
+      "sol_score": 0.001,
+      "correctness_rate": 1.0,
+      "stress_pass_rate": 1.0,
+      "speedup_vs_ref": 0.964,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 1.0,
+        "submit_passed": 1.0,
+        "correctness_passed": 1.0,
+        "stress_passed": 1.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_wkv_recurrence_a100_to_h100/viewer.html"
     }
   ]

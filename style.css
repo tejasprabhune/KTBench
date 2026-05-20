@@ -29,7 +29,7 @@
   --h2-size: 21px;
   --h3-size: 18px;
 
-  --max-width: 1100px;
+  --max-width: 1280px;
 }
 
 * {
@@ -159,6 +159,17 @@ a:hover {
 .filters select:focus {
   outline: none;
   border-color: var(--link);
+}
+
+/* Always allow horizontal scroll inside the wrapper. Tables with many
+   columns (the runs index, the by-model-axis aggregate) previously
+   forced cells to wrap when the container was narrower than the
+   table's natural width, which made some tables visually wider than
+   others on the same page. Locking the wrapper to overflow-x:auto and
+   keeping table.data at 100% width keeps the visible column ends
+   aligned across all three tables. */
+.table-scroll {
+  overflow-x: auto;
 }
 
 table.data {
