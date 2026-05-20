@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-20T22:37:56Z",
+  "generated_at": "2026-05-20T22:39:57Z",
   "runs": [
     {
       "slug": "ktbench_causal_conv1d_silu_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_causal_conv1d_silu_a100_to_h100",
       "model": null,
       "persona": null,
@@ -24,7 +24,7 @@
     },
     {
       "slug": "ktbench_chunk_decay_scan_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_chunk_decay_scan_a100_to_h100",
       "model": null,
       "persona": null,
@@ -45,7 +45,7 @@
     },
     {
       "slug": "ktbench_fused_rms_norm_residual_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_fused_rms_norm_residual_a100_to_h100",
       "model": null,
       "persona": null,
@@ -66,7 +66,7 @@
     },
     {
       "slug": "ktbench_hadamard_transform_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_hadamard_transform_a100_to_h100",
       "model": null,
       "persona": null,
@@ -87,7 +87,7 @@
     },
     {
       "slug": "ktbench_softmax_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_softmax_a100_to_h100",
       "model": null,
       "persona": null,
@@ -108,7 +108,7 @@
     },
     {
       "slug": "ktbench_softmax_h200_to_triton",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_softmax_h200_to_triton",
       "model": null,
       "persona": null,
@@ -129,7 +129,7 @@
     },
     {
       "slug": "ktbench_swiglu_activation_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_swiglu_activation_a100_to_h100",
       "model": null,
       "persona": null,
@@ -150,7 +150,7 @@
     },
     {
       "slug": "ktbench_wkv_recurrence_a100_to_h100",
-      "timestamp": "2026-05-20T22:35:08Z",
+      "timestamp": "2026-05-20T22:39:02Z",
       "scenario": "ktbench_wkv_recurrence_a100_to_h100",
       "model": null,
       "persona": null,
