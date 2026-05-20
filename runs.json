@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T23:08:21Z",
+  "generated_at": "2026-05-20T23:10:23Z",
   "runs": [
     {
       "slug": "ktbench_judge_causal_conv1d_silu_a100_to_h100",
@@ -109,7 +109,7 @@
     {
       "slug": "ktbench_judge_softmax_h200_to_triton",
       "timestamp": "2026-05-20T23:08:14Z",
-      "scenario": "ktbench_judge_softmax_h200_to_triton",
+      "scenario": "ktbench.judge_softmax_h200_to_triton",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -117,14 +117,21 @@
       "tgt_dsl": null,
       "src_hw": null,
       "tgt_hw": null,
-      "outcome": "incomplete",
-      "final_score": null,
-      "sol_score": null,
-      "correctness_rate": null,
-      "stress_pass_rate": null,
-      "speedup_vs_ref": null,
+      "outcome": "passed",
+      "final_score": 0.5,
+      "sol_score": -1.0,
+      "correctness_rate": 1.0,
+      "stress_pass_rate": 1.0,
+      "speedup_vs_ref": 0.8798,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 1.0,
+        "submit_passed": 1.0,
+        "correctness_passed": 1.0,
+        "stress_passed": 1.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_judge_softmax_h200_to_triton/viewer.html"
     },
     {
