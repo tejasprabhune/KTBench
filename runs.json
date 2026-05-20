@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-20T21:26:58Z",
+  "generated_at": "2026-05-20T21:29:00Z",
   "runs": [
     {
       "slug": "ktbench_causal_conv1d_silu_a100_to_h100",
       "timestamp": "2026-05-20T21:25:07Z",
-      "scenario": "ktbench_causal_conv1d_silu_a100_to_h100",
+      "scenario": "ktbench.causal_conv1d_silu_a100_to_h100",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -19,7 +19,14 @@
       "stress_pass_rate": null,
       "speedup_vs_ref": null,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 0.0,
+        "submit_passed": 0.0,
+        "correctness_passed": 0.0,
+        "stress_passed": 0.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_causal_conv1d_silu_a100_to_h100/viewer.html"
     },
     {
@@ -53,7 +60,7 @@
     {
       "slug": "ktbench_fused_rms_norm_residual_a100_to_h100",
       "timestamp": "2026-05-20T21:25:07Z",
-      "scenario": "ktbench_fused_rms_norm_residual_a100_to_h100",
+      "scenario": "ktbench.fused_rms_norm_residual_a100_to_h100",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -61,14 +68,21 @@
       "tgt_dsl": null,
       "src_hw": null,
       "tgt_hw": null,
-      "outcome": "incomplete",
-      "final_score": null,
-      "sol_score": null,
-      "correctness_rate": null,
-      "stress_pass_rate": null,
-      "speedup_vs_ref": null,
+      "outcome": "failed",
+      "final_score": 0.0,
+      "sol_score": 0.0,
+      "correctness_rate": 0.0,
+      "stress_pass_rate": 0.0,
+      "speedup_vs_ref": -1.0,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 1.0,
+        "submit_passed": 0.0,
+        "correctness_passed": 0.0,
+        "stress_passed": 0.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_fused_rms_norm_residual_a100_to_h100/viewer.html"
     },
     {
@@ -130,7 +144,7 @@
     {
       "slug": "ktbench_softmax_h200_to_triton",
       "timestamp": "2026-05-20T21:25:07Z",
-      "scenario": "ktbench_softmax_h200_to_triton",
+      "scenario": "ktbench.softmax_h200_to_triton",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -138,14 +152,21 @@
       "tgt_dsl": null,
       "src_hw": null,
       "tgt_hw": null,
-      "outcome": "incomplete",
-      "final_score": null,
-      "sol_score": null,
-      "correctness_rate": null,
-      "stress_pass_rate": null,
-      "speedup_vs_ref": null,
+      "outcome": "failed",
+      "final_score": 0.0,
+      "sol_score": 0.0,
+      "correctness_rate": 0.0,
+      "stress_pass_rate": 0.0,
+      "speedup_vs_ref": -1.0,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 1.0,
+        "submit_passed": 0.0,
+        "correctness_passed": 0.0,
+        "stress_passed": 0.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_softmax_h200_to_triton/viewer.html"
     },
     {
@@ -179,7 +200,7 @@
     {
       "slug": "ktbench_wkv_recurrence_a100_to_h100",
       "timestamp": "2026-05-20T21:25:07Z",
-      "scenario": "ktbench_wkv_recurrence_a100_to_h100",
+      "scenario": "ktbench.wkv_recurrence_a100_to_h100",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -194,7 +215,14 @@
       "stress_pass_rate": null,
       "speedup_vs_ref": null,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 0.0,
+        "submit_passed": 0.0,
+        "correctness_passed": 0.0,
+        "stress_passed": 0.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_wkv_recurrence_a100_to_h100/viewer.html"
     }
   ]
