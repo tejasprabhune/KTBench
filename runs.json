@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T23:33:21Z",
+  "generated_at": "2026-05-20T23:35:22Z",
   "runs": [
     {
       "slug": "ktbench_causal_conv1d_silu_a100_to_h100",
@@ -109,7 +109,7 @@
     {
       "slug": "ktbench_softmax_a100_to_h100",
       "timestamp": "2026-05-20T23:21:55Z",
-      "scenario": "ktbench_softmax_a100_to_h100",
+      "scenario": "ktbench.softmax_a100_to_h100",
       "model": "gpt-5.5",
       "persona": "normal_translation",
       "problem_id": "softmax_a100_to_h100",
@@ -124,7 +124,14 @@
       "stress_pass_rate": null,
       "speedup_vs_ref": null,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 0.0,
+        "submit_passed": 0.0,
+        "correctness_passed": 0.0,
+        "stress_passed": 0.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_softmax_a100_to_h100/viewer.html"
     },
     {
@@ -158,7 +165,7 @@
     {
       "slug": "ktbench_swiglu_activation_a100_to_h100",
       "timestamp": "2026-05-20T23:21:55Z",
-      "scenario": "ktbench_swiglu_activation_a100_to_h100",
+      "scenario": "ktbench.swiglu_activation_a100_to_h100",
       "model": "gpt-5.5",
       "persona": "normal_translation",
       "problem_id": "swiglu_activation_a100_to_h100",
@@ -173,7 +180,14 @@
       "stress_pass_rate": null,
       "speedup_vs_ref": null,
       "cost_gpu_seconds": 0.0,
-      "scores": {},
+      "scores": {
+        "submitted": 0.0,
+        "submit_passed": 0.0,
+        "correctness_passed": 0.0,
+        "stress_passed": 0.0,
+        "sol_above_threshold": 0.0,
+        "static_check_failed": 0.0
+      },
       "viewer_path": "ktbench_swiglu_activation_a100_to_h100/viewer.html"
     },
     {
