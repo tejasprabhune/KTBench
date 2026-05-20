@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T22:27:48Z",
+  "generated_at": "2026-05-20T22:29:49Z",
   "runs": [
     {
       "slug": "ktbench_swiglu_activation_a100_to_h100",
