@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-20T22:21:43Z",
+  "generated_at": "2026-05-20T22:23:45Z",
   "runs": [
     {
       "slug": "ktbench_swiglu_activation_a100_to_h100",
-      "timestamp": "2026-05-20T22:20:01Z",
-      "scenario": "ktbench.swiglu_activation_a100_to_h100",
+      "timestamp": "2026-05-20T22:22:36Z",
+      "scenario": "ktbench_swiglu_activation_a100_to_h100",
       "model": null,
       "persona": null,
       "problem_id": null,
@@ -19,14 +19,7 @@
       "stress_pass_rate": null,
       "speedup_vs_ref": null,
       "cost_gpu_seconds": 0.0,
-      "scores": {
-        "submitted": 0.0,
-        "submit_passed": 0.0,
-        "correctness_passed": 0.0,
-        "stress_passed": 0.0,
-        "sol_above_threshold": 0.0,
-        "static_check_failed": 0.0
-      },
+      "scores": {},
       "viewer_path": "ktbench_swiglu_activation_a100_to_h100/viewer.html"
     }
   ]
