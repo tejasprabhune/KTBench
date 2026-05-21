@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T00:11:52Z",
+  "generated_at": "2026-05-21T00:13:53Z",
   "runs": [
     {
       "slug": "ktbench_judge_causal_conv1d_silu_a100_to_h100",
